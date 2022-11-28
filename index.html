@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Junaid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onmousedown="isKeyPressed(event)">
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a> </li>
+            <li><a href="/intro.html">About</a> </li>
+            <li><a href="/services.html">Services</a> </li>
+            <li><a href="/blog.html">Blog</a> </li>
+            <li><a href="contact.html">Contact Me</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamBurger">
+          <img class="ham" src="/ham.png" alt="" width="23">
+          <img class="cross" src="/cross.png" alt="" width="23">
+        </div>
+        <div class="infocontainer">
+          <div class="devInfo">
+            <div class="hello">Hi I am </div>
+            <div class="Name">Mohammed Junaid Golewale</div>  
+            <div class="About">Developer,Technology Enthusiast</div>
+            <div class="MoreAbout">I am a developer who loves coding</div>
+            <div class="buttons">
+              <a href="/Resume.pdf" target="_blank">
+              <button class="btn">Download CV</button></a>
+              <a href="/contact.html" target="_blank">
+              <button class="btn">Contact Me</button></a>
+            </div>
+          </div>
+          <div class="devPic">
+            <img src="selff.jpeg" alt="Mohammed Junaid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="script.js"></script>
+  <!-- <script>
+    function isKeyPressed(event) {
+      if (event.altKey) {
+        alert("The ALT key was pressed!");
+      } else {
+        alert("The ALT key was NOT pressed!");
+      }
+    }
+    </script> -->
+
+
+    <!-- <div onmousedown="WhichButton(event)">Click this text with one of your mouse buttons to return a number.
+      <p>
+      0 = The left mouse button<br>
+      1 = The middle mouse button<br>
+      2 = The right mouse button
+      </p>
+    </div>
+    <script>
+      function WhichButton(event) {
+        alert("You pressed button: " + event.button)
+      }
+      </script> -->
+    
+    
+
+</body>
+</html>

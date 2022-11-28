@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get In Touch</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quia dolorum vel minus
+                        perspiciatis sunt sed dolores suscipit, magnam, aspernatur similique corporis officiis quas
+                        laboriosam voluptas! Eos eveniet tempora aspernatur qui sint iure eum molestiae maxime eius
+                        dicta sapiente ipsum, commodi dolores itaque necessitatibus optio reiciendis suscipit libero.
+                        Corporis, inventore.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Abu Sufiyan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Itagi colony, Bijapur</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">arsufiyan.maniyar@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="form_response.php" method="post" name="myform" onreset="reset_func()"
+                        onsubmit="validateform()">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="name" name="fname" onselect="select_func()" placeholder="Name"
+                                    onfocus="focus_func(this)" onblur="blur_func(this)">
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="fname" placeholder="Email" onselect="select_func()"
+                                    onfocus="focus_func(this)" onblur="blur_func(this)">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="sub" name="sub" value="Subject" onselect="select_func()"
+                                onfocus="focus_func(this)" onchange="change_func()" onblur="blur_func(this)">
+                        </div>
+                        <div class="field textarea">
+                            <textarea id="textarea" name="area" cols="30" rows="10" placeholder="Describe Your Project"
+                                onselect="select_func()" value="Describe you project" onfocus="focus_func(this)"
+                                onblur="blur_func(this)"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                        <div class="res_button" onclick="reset_click()">
+                            <button type="reset">Reset</button>
+                        </div>
+</body>
+
+</html>
